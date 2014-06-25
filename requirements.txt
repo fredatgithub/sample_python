@@ -1,0 +1,3 @@
+nose
+coverage
+rethinkdb==1.12.0-2
