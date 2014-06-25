@@ -1,4 +1,4 @@
-Python RethinkDB Sample
+Python Sample
 =====================
 
-Tests simple document insertion on a RethinkDB instance.
+Simple Python sample with tests using Nose and Coverage.

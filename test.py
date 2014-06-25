@@ -1,14 +1,11 @@
 import unittest
-from rethink import Rethink
-
 
 class TestSuite(unittest.TestCase):
 
     def test(self):
-        rethink = Rethink()
-        rethink.populate()
-        things = rethink.count()
-        self.failIf(things != 5)
+        app = App()
+        app.calculate()
+        self.failIf(app.retrieve() != 62)
 
 
 def main():
