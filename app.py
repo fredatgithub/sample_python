@@ -8,6 +8,7 @@ class App():
     def retrieve(self):
         return self.result
 
+
 if __name__ == "__main__":
     app = App()
     app.calculate()
